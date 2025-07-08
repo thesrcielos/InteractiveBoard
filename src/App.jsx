@@ -22,7 +22,7 @@ function App() {
 
   // Conexión WebSocket
   useEffect(() => {
-    const socket = new WebSocket("ws://localhost:8080/bbService");
+    const socket = new WebSocket("wss://boardback-ergfg6cxfudshkbz.canadacentral-01.azurewebsites.net/bbService");
     wsRef.current = socket;
 
     socket.onopen = () => {
