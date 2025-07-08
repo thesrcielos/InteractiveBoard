@@ -19,3 +19,5 @@ Also you will need the backend server go to https://github.com/thesrcielos/board
  npm run dev
  ```
 
+## Deployed App
+https://witty-ground-0a52d0d0f.2.azurestaticapps.net/
